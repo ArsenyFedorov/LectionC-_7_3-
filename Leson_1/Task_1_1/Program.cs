@@ -3,3 +3,4 @@
 int A = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine(A * A );
+
