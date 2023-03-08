@@ -1,22 +1,22 @@
 ﻿//Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
-Console.Write.Line("Ввидите первое число"!);
+Console.WriteLine("Ввидите первое число"!);
 int z = int.Parse(Console.ReadLine());
-Console.Write.Line("Ввидите второе  число"!);
+Console.WriteLine("Ввидите второе  число"!);
 int x = int.Parse(Console.ReadLine());
-Console.Write.Line("Ввидите третье число"!);
+Console.WriteLine("Ввидите третье число"!);
 int c = int.Parse(Console.ReadLine());
 if (z > x)
 {
     if (z > c)
-        Console.WriteLine(z);
+        Console.WriteLine( "Max:" + z);
 }
 else if (c > z)
-    Console.WriteLine(c);
+    Console.WriteLine("Max:" + c);
 
 else if (z < x)
 {
     if (x > c)
-        Console.WriteLine(x);
+        Console.WriteLine("Max:" + x);
 }
 else if (c > x)
-    Console.Write.Line(c);
+    Console.WriteLine("Max:" + c);

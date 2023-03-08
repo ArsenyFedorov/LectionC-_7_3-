@@ -2,3 +2,7 @@
 Console.WriteLine("Ввидет число");
 int a = int.Parse(Console.ReadLine()!);
 int b = 2 ;
+while (b < a ){
+
+    
+}
